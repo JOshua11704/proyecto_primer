@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="cajafuera">
+        <div class="formulariocaja">
+            <div class="botondeintercambiar">
+
+                <h1>ACTIVACION</h1>
+
+            </div>
+            <div class="logovai">
+                <img src="logo.png" alt="logo">
+            </div>
+            <!--Formulario para el login -->
+            <form id="frmlogin" class="grupo-entradas" method="POST" action="accesousuario.php">
+                <input type="text" class="cajaentradatexto" placeholder="&#128273; Ingresar usuario" name="txtusuario" required>
+
+                <a href="updatecontra.html"><input type="checkbox" class="checkboxvai"><span>Cambiar Contraseña</span></a>
+                <button type="submit" class="botonenviar" name="btnloginx">Activar</button>
+            </form>
+            <!--Formulario para registrar -->
+            <form id="frmregistrar" class="grupo-entradas" method="POST" action="login_registrar.php">
+                <input type="text" class="cajaentradatexto" placeholder="&#128273 Ingresar usuario" required name="txtusuario">
+
+            </form>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("frmlogin");
+        var y = document.getElementById("frmregistrar");
+        var z = document.getElementById("btnvai");
+
+        function registrarvai() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+
+        function loginvai() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+title{
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo_registro.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.login_in {
+    width: 320px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.603);
+    color: #000000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 30px ;
+}
+.login_in .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.login_in h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: left;
+    font-size: 15px;
+}
+.login_in input[type="text"],
+.login_in input[type="number"],
+.login_in input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login_in label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.login_in input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fa152f;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 20px;
+    
+}
